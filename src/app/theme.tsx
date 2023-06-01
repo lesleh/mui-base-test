@@ -32,7 +32,7 @@ theme = createTheme(theme, {
             boxShadow: "none",
             backgroundColor: theme.palette.primary.main,
             color: "#fff",
-            border: "1px solid transparent",
+            border: "2px solid transparent",
           },
           "&:active": {
             boxShadow: "none",
