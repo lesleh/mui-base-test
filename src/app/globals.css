@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Simples";
+  src: url(/assets/fonts/Simples_W_Bd_Stripped.woff2)
+      format("woff2"),
+    url(/assets/fonts/Simples_W_Bd_Stripped.woff)
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Simples";
+  src: url(/assets/fonts/Simples_W_Bk_Stripped.woff2)
+      format("woff2"),
+    url(/assets/fonts/Simples_W_Bk_Stripped.woff)
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Simples";
+  src: url(/assets/fonts/ApercuFullFur-Bold-Stripped.woff2)
+      format("woff2"),
+    url(/assets/fonts/ApercuFullFur-Bold-Stripped.woff)
+      format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: fallback;
+}
+
+* {
+  font-family: "Simples", sans-serif !important;
+}
